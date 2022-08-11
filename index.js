@@ -2,7 +2,7 @@ class Cliente {
     nome;
     cpf;
     agencia;
-    saldo
+    saldo;
 }
 
 const cliente1 = new Cliente();
