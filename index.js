@@ -1,5 +1,5 @@
 import {Cliente} from "./Cliente"
-import {ContaCorrente} from "./ContaCorrete"
+import {ContaCorrente} from "./ContaCorrente"
 
 const cliente1 = new Cliente();
 cliente1.nome = "Ricardo";

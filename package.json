@@ -1,7 +1,7 @@
 {
   "name": "bytebank",
   "version": "1.0.0",
-  "description": "projeto do bytebank",
+  "description": "projeto bytebank",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,9 @@
   },
   "author": "",
   "license": "ISC",
-  "type": "module" 
-    
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Eric90johnson/JavaScript-programando-a-Orientacao-a-Objetos/issues"
+  },
+  "homepage": "https://github.com/Eric90johnson/JavaScript-programando-a-Orientacao-a-Objetos#readme"
 }
