@@ -1,3 +1,6 @@
+import {Cliente} from "./Cliente"
+import {ContaCorrente} from "./ContaCorrete"
+
 const cliente1 = new Cliente();
 cliente1.nome = "Ricardo";
 cliente1.cpf = 11122233309;
