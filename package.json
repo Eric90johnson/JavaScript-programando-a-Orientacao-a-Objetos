@@ -12,6 +12,7 @@
   },
   "author": "",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Eric90johnson/JavaScript-programando-a-Orientacao-a-Objetos/issues"
   },
