@@ -2,8 +2,14 @@ import {Cliente} from "./Cliente.js";
 
 import { Gerente } from "./Funcionario/Gerente.js";
 import { Diretor } from "./Funcionario/Diretor.js";
+import { SistemaAutenticacao } from "./SistemaAutenticacao.js";
 
 const diretor = new Diretor ("Rodrigo", 10000, 12345678900);
-const gerente = new Gerente ("Ricardo", 5000, 12378945600);
+diretor.cadastrarSenha("123456");
 
-SistemaAutenticacao.login(diretor, "123456789");
+const gerente = new Gerente ("Ricardo", 5000, 12378945600);
+gerente.cadastrarSenha("654321");
+
+const estaLogado = SistemaAutenticacao.login(gerente, "654321");
+
+console.log(estaLogado);
